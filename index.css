@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.form_dang_nhap{
+    
+    margin-left: 200px;
+    margin-top: 200px;
+    
+}
+.username{
+    margin-bottom: 20px;
+}
+.form_dang_nhap .user input{
+    width: 266px;
+    height: 43px;
+    border: 1px solid blue;
+    
+
+}
+.form_dang_nhap .password{
+    position: relative;
+}
+
+.form_dang_nhap .password button{
+    position: absolute;
+    height: 43px;
+    left: 170px;
+    bottom: 21px;
+    background: yellowgreen;
+    width: 97px;
+    
+    
+}
+.form_dang_nhap .password input{
+    width: 266px;
+    height: 43px;
+    border: 1px solid blue;
+    margin-bottom: 20px;
+    
+    
+}
+.button button h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: white;
+}
+
+.button button{
+    
+    width: 266px;
+    height: 43px;
+    background: blue;
+    border: 1px solid blue;
+
+}
+ ::placeholder{
+     color: blue;
+     opacity: 1;
+     padding-left:  10px;
+ }

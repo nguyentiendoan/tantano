@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bo .banner_2 img{
+    width: 400px;
+    height: 400px;
+
+}
+.bo .banner_2 img:hover{
+    transform: scale(2);
+   transition: 0.5s;
+   opacity: 0.5;
+}

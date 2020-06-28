@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bo{
+  width: 220px;
+  height: 220px;
+  background: url(anh.jpg);
+  border-radius: 50%;
+ 
+  
+
+}
+.chu{
+    text-align: center;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background: blanchedalmond;
+    position: absolute;
+    border-radius: 100px;
+    left: 10px;
+    top: 10px;
+    z-index: 1;
+    line-height: 180px;
+}
+.nap{
+    
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background: url(./banner_1.jpg) -237px -99px;
+    position: absolute;
+    border-radius: 100px;
+    left: 10px;
+    top: 10px;
+    z-index: 2;
+    transform-origin: 50% 100%;
+    box-shadow: 0 0 2px rgb(131, 128, 128);
+   
+}
+.nap:hover{
+    transform: rotateX(180deg);
+    transition: 0.5s;
+}
